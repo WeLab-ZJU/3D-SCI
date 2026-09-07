@@ -1,0 +1,22 @@
+Path:
+  DataPath: 'Data/Clearmap/Org.tif'
+  OutputPath: 'Output'
+  ModelPath: 'Parafile/Model_Clearmap_96.pth'
+ForwardModel:
+    Compressive_ratio: 8
+    Noise: 0.0
+    PSF_rolling_mask_sigma_xy: 1.0
+    PSF_rolling_mask_sigma_z: 1.0
+    PSF_rolling_only_sigma_xy: 1.0
+    PSF_rolling_only_sigma_z: 1.0
+    Shift: 4
+    LineScanTime: 0.009765625
+    MaskHoldTime: 1.381
+    Rolling_mask_flag: True
+    Rolling_only_flag: True
+    Org_shape: [128, 128, 128]
+Reconstruction:
+    ModelChannel: 96
+    Iteration: 10
+    Lambda: 3.0
+    GPUNum: 1
