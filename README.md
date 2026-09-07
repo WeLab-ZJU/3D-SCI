@@ -4,7 +4,7 @@ Welcome to 3D-SCI! This repository is designed to help researchers or developers
 This repository provides a running demo that performs compressed sensing reconstruction under various conditions by setting different parameters in `Config.yaml`.
 
 ## Scheme
-<img src="docs/principle.png" width="80%"/>
+<img src="Abstract.png" width="100%"/>
 
 # Quickstart
 
